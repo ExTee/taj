@@ -1,0 +1,39 @@
+
+<html>
+    <head>
+        <title>The Wheel Of Celebration</title>
+        <link rel="stylesheet" href="main.css" type="text/css" />
+        <script type="text/javascript" src="Winwheel.js"></script>
+        <script src="TweenMax.min.js"></script>
+    </head>
+    <body>
+        <div align="center">
+            <h1>The Wheel Of Celebration</h1>
+            
+            <br />
+            <p>
+                    Enter your email address and spin the Wheel Of Celebration!
+            <br />  Your prize will be sent to your email!
+            </p>
+
+            <br />
+              Please enter your email address:
+            <br />
+             <input type="text" name="email" size="50">
+            <br />
+            <button type="button" >Submit!</button>
+            <br />
+            <br />
+            <img id="spin_button" src="spin_on.png" alt="Spin" onClick="startSpin();" />
+            <table cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                
+                <td width="438" height="582" class="the_wheel" align="center" valign="center">
+                    <canvas id="canvas" width="434" height="434">
+                    </canvas>
+                </td>
+            </tr>
+        </table>
+        <script type="text/javascript" src="Celebration_wheel.js"></script>
+    </body>
+</html>
