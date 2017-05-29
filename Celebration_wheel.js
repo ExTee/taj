@@ -37,7 +37,7 @@
                 {
 
                     // Disable the spin button so can't click again while wheel is spinning.
-                    document.getElementById('spin_button').src       = "http://localhost:8888/js/spin_off.png";
+                    document.getElementById('spin_button').src       = "https://github.com/ExTee/taj/edit/master/spin_off.png";
                     document.getElementById('spin_button').className = "";
                     
                     // Begin the spin animation by calling startAnimation on the wheel object.
